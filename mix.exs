@@ -34,7 +34,8 @@ defmodule Physics.Mixfile do
       {:timex, "~> 2.1.4"}, 
       {:amnesia, github: "meh/amnesia", tag: :master},  
       {:postgrex, ">= 0.0.0"},
-      {:ecto, "~> 2.0.0-rc.0"}
-    ] 
+      {:ecto, "~> 2.0.0-rc.0"},
+      {:combine, github: "bitwalker/combine", tag: :master, override: true}
+    ]
   end
 end
